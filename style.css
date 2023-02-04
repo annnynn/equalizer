@@ -294,11 +294,6 @@ footer span{
         margin-top: 60px;
      }
 
-     .footer-info{
-        margin-top: 32px;
-        display: flex;
-        justify-content: space-between;
-     }
      footer span{
         font-weight: bold;
     }
@@ -358,10 +353,14 @@ footer span{
             margin-right: 75px;
         }
 
+        footer{
+            margin-top: 87px;
+        }
+
         .flex-footer {
             display: flex;
             flex-direction: row;
-            padding: 87px 166px 91px 166px;
+            padding: 0px 166px 0px 166px;
         }
 
         footer p{
