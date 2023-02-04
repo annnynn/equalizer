@@ -21,6 +21,11 @@ body{
     position: relative;
 }
 
+
+.pattern-1{
+    display: none;
+}
+
 .pattern-2{
     display: none;
 }
@@ -94,6 +99,7 @@ header p{
     top: -130px;
     color: var(--clr-white--);
     padding: 48px 37px 48px 36px;
+    width: 100%;
 }
 
 .orange-box h2{
@@ -133,6 +139,7 @@ header p{
 
 .buttons{
     display: flex;
+    align-items: center;
     flex-direction: column;
 }
 
@@ -210,14 +217,15 @@ footer p{
 
 @media (min-width: 768px){
     body{
-
+    background-image: url(/assets/bg-main-tablet.png);
     }
 
     header h2{
         width: 520px;
         font-size: 64px;
         line-height: 64px;
-        letter-spacing: -0.73 px;
+        letter-spacing: -0.73px;
+        margin-top: 95px;
     }
 
     header p{
@@ -230,9 +238,11 @@ footer p{
     }
     .pattern-1{
         position: absolute;
-        right: -50px;
+        right: -40px;
         top: -50px;
         display:block;
+        height: 400px;
+        width: 266px;
     }
 
     .main-content .mobile {
@@ -268,6 +278,8 @@ footer p{
      }
 
      .flex-footer{
+        display: flex;
+        flex-direction: column;
         padding: 0px 39px 0px 38px;
      }
 
@@ -277,6 +289,100 @@ footer p{
 
      .icons{ 
         margin-top: 60px;
+     }
+
+     .footer-info{
+        margin-top: 32px;
+        display: flex;
+        justify-content: space-between;
+     }
+
+    /*DEKSTOP DEKSTOP DEKSTOP*/ 
+     @media (min-width: 1440px){
+        body{
+            background-image: url(/assets/bg-main-desktop.png);
+        }
+        header{
+            padding: 61px 166px 0px 166px;
+        }
+
+        header h2{
+            font-size: 88px;
+            width: 1015px;
+            line-height: 88px;
+            letter-spacing: -1px;
+            padding-right: 100px;
+        }
+
+        header p{
+            margin-top: 40px;
+            width: 830px;
+            font-size: 20px;
+            line-height: 34px;
+        }
+
+        .main-content{
+            padding-left: 166px;
+            padding-right: 166px;
+        }
+
+        .main-content .black-box{
+            border-radius: 12px;
+            height: 600px;
+            margin-top: 321px;
+        }
+
+        .main-content .mobile {
+            height: 642px;
+            width: 312px;
+            left: 118px;
+            top: -245px;
+        }
+
+        .orange-box{
+            left: 569px;
+            height: 625px;
+            width: 446px;
+            top: -445px;
+        }
+
+        .figures {
+            height: 468px;
+            width: 312px;
+            margin-right: 75px;
+        }
+
+        .flex-footer {
+            display: flex;
+            flex-direction: row;
+            padding: 87px 166px 91px 166px;
+        }
+
+        footer p{
+            margin-top: 0;
+            font-size: 16px;
+            margin-left: 137px;
+            width: 366px;
+        }
+
+        footer span{
+            font-weight: bold;
+        }
+        .footer-info{
+            margin-top:0;
+        }
+
+         .icons{
+            margin-top:25px;
+            margin-left: 359px;
+
+         }
+         .pattern-1{
+            height: 468px;
+            width: 312px;
+            right:73px;
+         }
+
      }
 
 }
