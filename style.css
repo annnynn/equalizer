@@ -214,6 +214,9 @@ footer p{
     padding-left: 20px;
 }
 
+footer span{
+    font-weight: bold;
+}
 
 @media (min-width: 768px){
     body{
@@ -296,6 +299,9 @@ footer p{
         display: flex;
         justify-content: space-between;
      }
+     footer span{
+        font-weight: bold;
+    }
 
     /*DEKSTOP DEKSTOP DEKSTOP*/ 
      @media (min-width: 1440px){
