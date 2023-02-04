@@ -8,9 +8,17 @@
     --clr-black--:hsla(244, 23%, 12%, 1);
     --clr-orange--:hsla(12, 94%, 65%, 1);
     --clr-white--:hsla(20, 33%, 98%, 1);
+
+    /*HOVERS*/
+    --clr-aqua--:hsla(177, 68%, 64%, 1);
+    --clr--dark-yellow:hsla(33, 100%, 70%, 1);
+    --clr-orange--:hsla(12, 94%, 65%, 1);
 }
 
 body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
    font-family: 'Be Vietnam Pro', sans-serif;
    background-image: url(/assets/bg-main-mobile.png);
    background-repeat: no-repeat;
@@ -152,6 +160,7 @@ header p{
     border-radius: 12px;
     background-color: var(--clr-black--);
     color: var(--clr-white--);
+    cursor: pointer;
 
 }
 
@@ -189,6 +198,7 @@ header p{
     background-color: var(--clr-white--);
     color: var(--clr-black--);
     margin-top: 16px;
+    cursor: pointer;
 }
 
 
@@ -341,7 +351,7 @@ footer span{
         }
 
         .orange-box{
-            left: 569px;
+            left: 540px;
             height: 625px;
             width: 446px;
             top: -445px;
@@ -354,7 +364,7 @@ footer span{
         }
 
         footer{
-            margin-top: 87px;
+            margin-top: 387px;
         }
 
         .flex-footer {
@@ -380,12 +390,23 @@ footer span{
          .icons{
             margin-top:25px;
             margin-left: 359px;
+         }
 
+         li:hover{
+            /* background-color: var(--clr-orange--); need to fix */
          }
          .pattern-1{
             height: 468px;
             width: 312px;
-            right:73px;
+            right:52px;
+         }
+
+         .ios-button:hover{
+            background-color: var(--clr-aqua--);
+         }
+
+         .android-button:hover{
+            background-color:var(--clr--dark-yellow);
          }
 
      }
