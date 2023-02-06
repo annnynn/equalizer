@@ -19,11 +19,13 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-   font-family: 'Be Vietnam Pro', sans-serif;
-   background-image: url(/assets/bg-main-mobile.png);
-   background-repeat: no-repeat;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    background-image: url(/assets/bg-main-tablet.png);
+    background-repeat: no-repeat;
+    background-position-x:-600px;
+    background-position-y: -500px;
+    
 }
-
 
 .mobile-background{
     position: relative;
@@ -228,9 +230,13 @@ footer span{
     font-weight: bold;
 }
 
+/*TABLET TABLET TABLET*/
 @media (min-width: 768px){
     body{
-    background-image: url(/assets/bg-main-tablet.png);
+        background-image: url(/assets/bg-main-tablet.png);
+        background-repeat: no-repeat;
+        background-position-x:-370px;
+        background-position-y: -300px;
     }
 
     header h2{
@@ -312,6 +318,9 @@ footer span{
      @media (min-width: 1440px){
         body{
             background-image: url(/assets/bg-main-desktop.png);
+            background-repeat: no-repeat;
+            background-position-x:-270px;
+            background-position-y: -270px;
         }
         header{
             padding: 61px 166px 0px 166px;
@@ -392,9 +401,9 @@ footer span{
             margin-left: 359px;
          }
 
-         li:hover{
-            /* background-color: var(--clr-orange--); need to fix */
-         }
+         /* li:hover{
+            background-color: var(--clr-orange--); need to fix
+         } */
          .pattern-1{
             height: 468px;
             width: 312px;
