@@ -407,7 +407,7 @@ footer span{
          .pattern-1{
             height: 468px;
             width: 312px;
-            right:52px;
+            right:0;
          }
 
          .ios-button:hover{
