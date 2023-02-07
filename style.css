@@ -204,8 +204,14 @@ header p{
 }
 
 
+footer{
+    width: 100%;
+}
+
+
 .flex-footer{
     padding:0px 25px 81px 24px;
+    width: 100%;
 }
 
 footer p{
@@ -379,6 +385,7 @@ footer span{
         .flex-footer {
             display: flex;
             flex-direction: row;
+            justify-content: space-around;
             padding: 0px 166px 0px 166px;
         }
 
@@ -399,6 +406,10 @@ footer span{
          .icons{
             margin-top:25px;
             margin-left: 359px;
+         }
+
+         .black-box{
+            max-width: 1110px;
          }
 
          /* li:hover{
